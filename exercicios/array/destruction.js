@@ -1,4 +1,4 @@
-// Desestruturação como você tivesse uma mala e nela tivesse uma camisa vermelha, amarela e azul. Só quero pegar a camisa amarela.
+// Desestruturação como você tivesse uma mala e nela tivesse uma camisa vermelha, amarela e azul. Só que quero pegar apenas camisa amarela da mala.
 const mala = ['camisa vermelha', 'camisa amarela', 'camisa azul']
 let [, amarela] = mala
 console.log(amarela)
